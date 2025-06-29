@@ -787,5 +787,53 @@
     "source": "HackerRank",
     "text": "You are tasked with debugging a",
     "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 106,
+    "company": "Google",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "How would you approach debugging a situation where a service is returning an error for a subset of users but not for others?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 107,
+    "company": "Amazon",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "Describe a time when you had to debug a complex issue in production; what steps did you take to identify and fix the problem?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 108,
+    "company": "Facebook",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "If you were given a piece of code that is not producing the expected output, what steps would you take to troubleshoot the issue?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 109,
+    "company": "Apple",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "Can you explain how you would debug an application that crashes intermittently during specific user interactions?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 110,
+    "company": "Microsoft",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "What tools or methods do you use to track down memory leaks in a large application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 111,
+    "company": "Netflix",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "How would you handle",
+    "fetched_at": "2025-06-29"
   }
 ]

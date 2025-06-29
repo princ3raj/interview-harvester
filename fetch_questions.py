@@ -108,6 +108,24 @@ def load_prompts(path=PROMPT_FILE):
 def is_duplicate(q, existing_texts, cutoff=0.8):
     return any(difflib.SequenceMatcher(None, q, ex).ratio() > cutoff for ex in existing_texts)
 
+# ─── MARKDOWN EXPORT ─────────────────────────────────────────────────────────────
+def save_markdown(data, json_path):
+    md_path = json_path.replace('.json', '.md')
+    header = [
+        '# Interview Questions',
+        '| ID | Company | Topic | Source | Question | Fetched |',
+        '| --- | --- | --- | --- | --- | --- |'
+    ]
+    lines = header.copy()
+    for e in data:
+        # Escape pipe characters in question text
+        q_text = e['text'].replace('|', '\|')
+        source = e.get('source', '')
+        line = f"""| {e['id']} | {e['company']} | {e['topic']} | {source} | {q_text} | {e['fetched_at']} |"""
+        lines.append(line)
+
+    with open(md_path, 'w') as md_file:
+        md_file.writelines(lines)
 
 # ─── MAIN ───────────────────────────────────────────────────────────────────────
 def main():
@@ -183,6 +201,9 @@ def main():
             print(f"➕ ({e['id']}) [{e['company']}][{e['topic']}][{e['source']}] {e['text']}")
     else:
         print("✔ No new questions found.")
+    
+    # Export updated bank to Markdown
+    save_markdown(existing, JSON_PATH)
 
 
 if __name__ == "__main__":
