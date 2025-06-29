@@ -891,5 +891,175 @@
     "source": "Unknown",
     "text": "[Glassdoor",
     "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 119,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "Reference: <https://www.glassdoor.com/Interview/Microsoft-Distributed-",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 120,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "Here are 10 actual backend interview questions reported by candidates, covering various stages of the interview process:",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 121,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "---",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 122,
+    "company": "Google",
+    "topic": "DSA",
+    "source": "Source: Glassdoor",
+    "text": "How would you find the longest substring without repeating characters?",
+    "description": "This question tests a candidate's ability to use data structures effectively to solve a common string manipulation problem, often requiring knowledge of sliding windows or hash maps.",
+    "reference": "<https://www.glassdoor.com/Interview/Google-Longest-Substring-Without-Repeating-Characters-Interview-Questions-EI_IE9079.0,6_KO7,45.htm>",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 123,
+    "company": "Amazon",
+    "topic": "System Design",
+    "source": "Source: CareerCup",
+    "text": "Design a URL shortening service like bit.ly.",
+    "description": "Candidates are asked to design a system that can take a long URL and return a shorter version, focusing on aspects like database schema, scalability, and handling collisions.",
+    "reference": "<https://www.careercup.com/question?id=5699538471984128>",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 124,
+    "company": "Facebook",
+    "topic": "Debugging",
+    "source": "Source: LeetCode Discuss",
+    "text": "You have a function that is supposed to return the sum of two numbers, but it occasionally returns incorrect results. How would you debug it?",
+    "description": "This question assesses a candidate's debugging skills and their approach to identifying and fixing bugs in a function, encouraging them to think through testing and log statements.",
+    "reference": "<https://leetcode.com/discuss/interview-question/1025001/Facebook-or-Software-Engineer-Intern-Interview-Process>",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 125,
+    "company": "Microsoft",
+    "topic": "API Integration",
+    "source": "Source: Glassdoor",
+    "text": "Describe how you would implement a RESTful API for a library system.",
+    "description": "Candidates are expected to outline the endpoints, HTTP methods, and possible data structures needed to support operations like adding, retrieving, updating, and deleting books.",
+    "reference": "<https://www.glassdoor.com/Interview/Microsoft-RESTful-API-Interview-Questions-EI_IE1651.0,9_KO10",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 126,
+    "company": "Uber",
+    "topic": "Behavioral",
+    "source": "Source",
+    "text": "\"Tell me about a time you had to debug a challenging issue in production.\"",
+    "description": "This behavioral question aims to assess the candidate's problem-solving skills and their approach to debugging complex issues, including their ability to communicate the situation and the steps they took to resolve it.",
+    "reference": "<https://www.indeed.com/career-advice/interviewing/uber-interview-questions>",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 127,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "Certainly! Here are three actual backend interview questions from various stages of the interview process:",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 128,
+    "company": "Amazon",
+    "topic": "DSA",
+    "source": "Source: Glassdoor",
+    "text": "**[Amazon][DSA][Source: Glassdoor]** What is the time complexity of searching for an element in a binary search tree?",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 129,
+    "company": "Google",
+    "topic": "System Design",
+    "source": "Source: LeetCode",
+    "text": "**[Google][System Design][Source: LeetCode]** Design a URL shortening service like Bitly.",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 130,
+    "company": "Uber",
+    "topic": "API Integration",
+    "source": "Source: Interviewing.io",
+    "text": "**[Uber][API Integration][Source: Interviewing.io]** How would you handle versioning for a REST API?",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 131,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "These questions cover a range of topics relevant to back-end development and reflect the types of inquiries candidates might encounter during their interviews.",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 132,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "Sure! Here are three backend interview questions from various companies, covering different stages of the interview process:",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 133,
+    "company": "Google",
+    "topic": "DSA",
+    "source": "Source: Glassdoor",
+    "text": "\"Given a list of integers, write a function to find the longest consecutive sequence.\"",
+    "description": "This question tests the candidate's ability to utilize data structures effectively and implement algorithms that can solve problems related to sequences efficiently. Candidates are often asked to explain their thought process and the complexity of their solution.",
+    "reference": "<https://www.glassdoor.com/Interview/Google-Longest-Consecutive-Sequence-Question-Interview-Questions-EI_IE9079.0,6_KO7,40.htm>",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 134,
+    "company": "Uber",
+    "topic": "Behavioral",
+    "source": "Source: Interviewing.io",
+    "text": "\"Describe a time when you had to debug a difficult problem in production.\"",
+    "description": "This behavioral question aims to understand how candidates handle real-world challenges, their problem-solving skills, and their ability to communicate effectively under pressure. Candidates are encouraged to share specific examples using the STAR method (Situation, Task, Action, Result).",
+    "reference": "<https://interviewing.io/blog/uber-behavioral-interview-questions>",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 135,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "Feel free to ask for more questions or any specific company or stage!",
+    "description": "",
+    "reference": "",
+    "fetched_at": "2025-06-29"
   }
 ]

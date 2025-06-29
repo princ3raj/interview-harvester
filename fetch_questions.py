@@ -67,7 +67,7 @@ MODELS = [
     "gpt-4o-mini-instruct"
 ]
 
-MAX_NEW = 10
+MAX_NEW = 3
 JSON_PATH = os.path.expanduser(os.getenv("QUESTIONS_JSON_PATH", "~/questions.json"))
 PROMPT_FILE = os.path.expanduser(os.getenv("PROMPT_FILE", "~/prompts.json"))
 
@@ -153,27 +153,43 @@ def main():
 
     lines = response.choices[0].message.content.strip().split("\n")
 
+    blocks = "\n".join(lines).strip().split("\n\n")
+
     new_entries = []
-    for line in lines:
-        text = re.sub(r'^\d+\.\s*', '', line).strip().strip('"')
-        if not text:
+    for block in blocks:
+        lines = block.strip().split("\n")
+        if not lines:
             continue
-        tags = re.findall(r"\[([^\]]+)\]", text)
-        content = re.sub(r"^(?:\[[^\]]+\])+,?\s*", "", text)
+
+        header = lines[0]
+        tags = re.findall(r"\[([^\]]+)\]", header)
+        content = re.sub(r"^\*{0,2}(?:\[[^\]]+\]){1,3}\*{0,2}\s*", "", header).strip()
+        
         company = tags[0] if len(tags) > 0 else "Unknown"
         topic = tags[1] if len(tags) > 1 else "Unknown"
         source = tags[2] if len(tags) > 2 else "Unknown"
-        q = content.strip().strip('"')
-        if q and not is_duplicate(q, existing_texts):
+
+        description = ""
+        reference = ""
+
+        for line in lines[1:]:
+            if line.lower().startswith("description:"):
+                description = line.partition(":")[2].strip()
+            elif line.lower().startswith("reference:"):
+                reference = line.partition(":")[2].strip()
+
+        if content and not is_duplicate(content, existing_texts):
             new_entries.append({
                 "id": next_id,
                 "company": company,
                 "topic": topic,
                 "source": source,
-                "text": q,
+                "text": content,
+                "description": description,
+                "reference": reference,
                 "fetched_at": time.strftime("%Y-%m-%d")
             })
-            existing_texts.append(q)
+            existing_texts.append(content)
             next_id += 1
 
     if new_entries:
