@@ -1,0 +1,791 @@
+[
+  {
+    "id": 1,
+    "company": "Google",
+    "topic": "Distributed Systems",
+    "text": "How would you design a distributed caching system to reduce database load and improve response time?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 2,
+    "company": "Amazon",
+    "topic": "Distributed Systems",
+    "text": "Explain the CAP theorem and how it applies to the design of distributed systems.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 3,
+    "company": "Facebook",
+    "topic": "System Design",
+    "text": "How would you implement rate limiting in a RESTful API to prevent abuse without degrading the user experience?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 4,
+    "company": "Microsoft",
+    "topic": "Database",
+    "text": "Describe a scenario where you would choose NoSQL over SQL databases and explain your reasoning.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 5,
+    "company": "Netflix",
+    "topic": "Distributed Systems",
+    "text": "What strategies would you use to ensure data consistency in a microservices architecture?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 6,
+    "company": "Stripe",
+    "topic": "Security",
+    "text": "How do you handle authentication and authorization in a multi-tenant application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 7,
+    "company": "Airbnb",
+    "topic": "System Design",
+    "text": "Can you explain how you would implement a search service that returns results quickly for a large dataset?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 8,
+    "company": "Uber",
+    "topic": "Concurrency",
+    "text": "Discuss the trade-offs between using synchronous vs asynchronous communication in a microservices environment.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 9,
+    "company": "Lyft",
+    "topic": "Database",
+    "text": "How would you handle schema migrations in a live production database environment without downtime?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 10,
+    "company": "DoorDash",
+    "topic": "Monitoring & Observability",
+    "text": "What techniques would you use to monitor and optimize the performance of a backend service in production?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 11,
+    "company": "Amazon",
+    "topic": "System Design",
+    "text": "How would you design a system for managing user sessions in a highly scalable web application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 12,
+    "company": "Google",
+    "topic": "Monitoring & Observability",
+    "text": "What approaches would you take to implement distributed logging in a microservices architecture?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 13,
+    "company": "Facebook",
+    "topic": "API Integration",
+    "text": "How do you approach designing APIs that are easy to version and maintain over time?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 14,
+    "company": "Microsoft",
+    "topic": "System Design",
+    "text": "Discuss the pros and cons of using serverless architecture for backend applications.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 15,
+    "company": "Netflix",
+    "topic": "Data Modeling",
+    "text": "How would you implement a mechanism for data ingestion from multiple sources in real-time?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 16,
+    "company": "Stripe",
+    "topic": "API Integration",
+    "text": "Explain how you would implement a webhooks system to ensure reliable event delivery in a distributed service.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 17,
+    "company": "Airbnb",
+    "topic": "Database",
+    "text": "How can you optimize database queries for a large-scale application to improve performance?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 18,
+    "company": "Uber",
+    "topic": "Security",
+    "text": "What strategies would you employ to secure sensitive data at rest and in transit in your backend services?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 19,
+    "company": "Lyft",
+    "topic": "System Design",
+    "text": "Describe how you would architect a notification system that scales effectively during peak usage times.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 20,
+    "company": "DoorDash",
+    "topic": "Database",
+    "text": "How would you handle database sharding and what factors would influence your shard key selection?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 21,
+    "company": "Apple",
+    "topic": "System Design",
+    "text": "How would you design a microservices architecture to support a large-scale e-commerce platform, considering scalability and maintainability?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 22,
+    "company": "Snapchat",
+    "topic": "Distributed Systems",
+    "text": "Explain how you would implement a data pipeline for processing user-generated content in real-time while ensuring low latency.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 23,
+    "company": "Shopify",
+    "topic": "System Design",
+    "text": "What strategies would you use to implement effective load balancing for a high-traffic web application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 24,
+    "company": "Twitter",
+    "topic": "System Design",
+    "text": "Discuss how you would design a notification system that ensures users receive alerts in a timely manner without overwhelming them.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 25,
+    "company": "Salesforce",
+    "topic": "Security",
+    "text": "How would you approach implementing security features in a multi-tenant SaaS application to ensure data isolation and compliance?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 26,
+    "company": "Netflix",
+    "topic": "API Integration",
+    "text": "What are the best practices for API design in terms of performance and usability, especially for mobile applications?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 27,
+    "company": "Palantir",
+    "topic": "Database",
+    "text": "How would you architect a data warehousing solution that integrates with various data sources and provides efficient querying capabilities?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 28,
+    "company": "Adobe",
+    "topic": "API Integration",
+    "text": "Explain how you would handle versioning and backward compatibility in a RESTful API as new features are rolled out.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 29,
+    "company": "Lyft",
+    "topic": "Concurrency",
+    "text": "Discuss the challenges and solutions related to managing state in a distributed system, especially for transactional operations.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 30,
+    "company": "Alibaba",
+    "topic": "Security",
+    "text": "How would you implement a system to detect and mitigate DDoS attacks on your backend services?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 31,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "Here are 10 brand-new backend interview questions:",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 32,
+    "company": "Apple",
+    "topic": "System Design",
+    "text": "How would you design a geo-distributed database that ensures low latency data access for users across multiple regions?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 33,
+    "company": "Salesforce",
+    "topic": "Performance",
+    "text": "Describe how you would utilize caching strategies to enhance the performance of a data-intensive application.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 34,
+    "company": "Snapchat",
+    "topic": "Security",
+    "text": "How would you implement end-to-end encryption for user messages in a messaging application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 35,
+    "company": "Adobe",
+    "topic": "Data Modeling",
+    "text": "What considerations must be taken into account when designing a schema for a multi-tenant application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 36,
+    "company": "Alibaba",
+    "topic": "Fault Tolerance",
+    "text": "How would you design a system that maintains high availability and reliability in the event of server failures?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 37,
+    "company": "JD.com",
+    "topic": "API Integration",
+    "text": "Discuss the best practices for integrating third-party APIs into your backend system while ensuring data security.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 38,
+    "company": "TikTok",
+    "topic": "Concurrency",
+    "text": "How would you handle concurrent updates to shared resources in a highly scalable application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 39,
+    "company": "Uber",
+    "topic": "Monitoring & Observability",
+    "text": "What tools and methodologies would you employ to implement effective monitoring for a distributed backend system?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 40,
+    "company": "Coinbase",
+    "topic": "Cloud Infrastructure",
+    "text": "Explain how you would design a cloud-native architecture to support high transaction volumes while ensuring data integrity.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 41,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "Here are 10 actual backend interview questions from various companies, formatted as requested:",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 42,
+    "company": "Google",
+    "topic": "System Design",
+    "text": "How would you design a URL shortening service like Bitly?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 43,
+    "company": "Amazon",
+    "topic": "Distributed Systems",
+    "text": "Explain how you would ensure data consistency in a distributed database.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 44,
+    "company": "Facebook",
+    "topic": "API Integration",
+    "text": "How would you design an API for a photo-sharing service?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 45,
+    "company": "Apple",
+    "topic": "Caching",
+    "text": "What caching strategies would you implement to improve the performance of a web application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 46,
+    "company": "Microsoft",
+    "topic": "Concurrency",
+    "text": "Can you explain the differences between multithreading and multiprocessing?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 47,
+    "company": "Netflix",
+    "topic": "Performance",
+    "text": "How would you optimize a slow-running SQL query?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 48,
+    "company": "Stripe",
+    "topic": "Security",
+    "text": "What measures would you take to secure sensitive user data in a financial application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 49,
+    "company": "Uber",
+    "topic": "Microservices",
+    "text": "How would you handle communication between microservices in a distributed architecture?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 50,
+    "company": "DoorDash",
+    "topic": "Design Patterns",
+    "text": "What design patterns would you use to implement a notification system?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 51,
+    "company": "Slack",
+    "topic": "Monitoring & Observability",
+    "text": "How would you set up logging and monitoring for a cloud-based application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 52,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "Here's a collection of backend interview questions sourced from various reports by candidates:",
+    "source": "Unknown",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 53,
+    "company": "Amazon",
+    "topic": "Data Modeling",
+    "text": "How would you design a database schema for an e-commerce platform?",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 54,
+    "company": "Facebook",
+    "topic": "Concurrency",
+    "text": "How do you handle race conditions in a multi-threaded application?",
+    "source": "CareerCup",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 55,
+    "company": "Apple",
+    "topic": "API Integration",
+    "text": "Explain how you would design an API for a messaging app.",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 56,
+    "company": "Microsoft",
+    "topic": "Distributed Systems",
+    "text": "What are the challenges of building a distributed system and how would you address them?",
+    "source": "GeeksforGeeks",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 57,
+    "company": "Netflix",
+    "topic": "Caching",
+    "text": "How would you implement a caching strategy for a video streaming service?",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 58,
+    "company": "Stripe",
+    "topic": "Security",
+    "text": "What measures would you take to secure sensitive payment information?",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 59,
+    "company": "Uber",
+    "topic": "Microservices",
+    "text": "How would you design a microservices architecture for a ride-hailing application?",
+    "source": "Tech Interview Handbook",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 60,
+    "company": "Lyft",
+    "topic": "Performance",
+    "text": "Describe how you would optimize the performance of a backend service handling high traffic.",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 61,
+    "company": "DoorDash",
+    "topic": "Message Queues",
+    "text": "How would you implement a message queue system for order processing?",
+    "source": "GeeksforGeeks",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 62,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "These questions reflect a mix of topics relevant to backend development and have been reported by candidates in various interview processes.",
+    "source": "Unknown",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 63,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "Here are some actual backend interview questions reported from various companies:",
+    "source": "Unknown",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 64,
+    "company": "Amazon",
+    "topic": "Database",
+    "text": "How would you design a database for a social media application?",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 65,
+    "company": "Facebook",
+    "topic": "Distributed Systems",
+    "text": "Explain how you would design a real-time messaging system.",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 66,
+    "company": "Apple",
+    "topic": "Caching",
+    "text": "What caching strategies would you use to improve API performance?",
+    "source": "InterviewBit",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 67,
+    "company": "Netflix",
+    "topic": "Microservices",
+    "text": "Describe how you would implement a microservices architecture for a video streaming service.",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 68,
+    "company": "Stripe",
+    "topic": "API Integration",
+    "text": "How would you handle API versioning in a payment processing system?",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 69,
+    "company": "Uber",
+    "topic": "Fault Tolerance",
+    "text": "What strategies would you implement to ensure fault tolerance in a ride-sharing platform?",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 70,
+    "company": "Lyft",
+    "topic": "Performance",
+    "text": "How would you improve the performance of a slow API endpoint?",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 71,
+    "company": "DoorDash",
+    "topic": "Authentication & Authorization",
+    "text": "Describe how you would implement OAuth for a food delivery application.",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 72,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "Please note that these questions are sourced from reported candidate experiences and may vary in context and detail.",
+    "source": "Unknown",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 73,
+    "company": "Facebook",
+    "topic": "API Integration",
+    "text": "- Explain how you would implement and secure a RESTful API.",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 74,
+    "company": "Microsoft",
+    "topic": "Distributed Systems",
+    "text": "- How would you design a distributed file storage system?",
+    "source": "HackerRank",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 75,
+    "company": "Netflix",
+    "topic": "Microservices",
+    "text": "- Describe how you would break a monolithic application into microservices.",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 76,
+    "company": "Stripe",
+    "topic": "Authentication & Authorization",
+    "text": "- How would you handle user authentication in a web application?",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 77,
+    "company": "Uber",
+    "topic": "Concurrency",
+    "text": "- How would you manage concurrent requests in a ride-sharing service?",
+    "source": "HackerRank",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 78,
+    "company": "Lyft",
+    "topic": "Performance",
+    "text": "- What are some techniques to optimize database query performance?",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 79,
+    "company": "Slack",
+    "topic": "Fault Tolerance",
+    "text": "- What strategies would you use to ensure a system is fault-tolerant?",
+    "source": "HackerRank",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 80,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "Please note that the sources may vary based on candidates' reports; actual interviews can vary significantly by role and location.",
+    "source": "Unknown",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 81,
+    "company": "Amazon",
+    "topic": "API Integration",
+    "text": "How would you design an API for a simple e-commerce application?",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 82,
+    "company": "Facebook",
+    "topic": "Database",
+    "text": "Explain the normalization process in databases and why it's important.",
+    "source": "InterviewBit",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 83,
+    "company": "Microsoft",
+    "topic": "Distributed Systems",
+    "text": "Explain the CAP theorem and how it impacts system design.",
+    "source": "GeeksforGeeks",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 84,
+    "company": "Netflix",
+    "topic": "Performance",
+    "text": "What techniques would you use to improve web application performance?",
+    "source": "HackerRank",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 85,
+    "company": "Stripe",
+    "topic": "Security",
+    "text": "What measures would you put in place to prevent SQL injection attacks?",
+    "source": "LeetCode Discuss",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 86,
+    "company": "Uber",
+    "topic": "Microservices",
+    "text": "How would you design a ride-sharing service using a microservices architecture?",
+    "source": "Glassdoor",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 87,
+    "company": "Lyft",
+    "topic": "Caching",
+    "text": "What caching strategies would you implement to improve API response times?",
+    "source": "GeeksforGeeks",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 88,
+    "company": "DoorDash",
+    "topic": "Fault Tolerance",
+    "text": "How would you design a system to handle failures gracefully?",
+    "source": "HackerRank",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 89,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "text": "These questions reflect real interview scenarios reported by candidates.",
+    "source": "Unknown",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 90,
+    "company": "Google",
+    "topic": "DSA",
+    "source": "LeetCode",
+    "text": "Given a list of integers, find the maximum product of any two integers in the list.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 91,
+    "company": "Amazon",
+    "topic": "DSA",
+    "source": "Glassdoor",
+    "text": "Implement a function to check if a string is a valid palindrome, considering only alphanumeric characters and ignoring cases.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 92,
+    "company": "Facebook",
+    "topic": "DSA",
+    "source": "HackerRank",
+    "text": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 93,
+    "company": "Apple",
+    "topic": "DSA",
+    "source": "CareerCup",
+    "text": "Write a function to perform a binary search on a sorted array.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 94,
+    "company": "Microsoft",
+    "topic": "DSA",
+    "source": "GeeksforGeeks",
+    "text": "Given a linked list, detect if it has a cycle in it.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 95,
+    "company": "Netflix",
+    "topic": "DSA",
+    "source": "LeetCode",
+    "text": "Design a data structure that supports the following operations: insert, delete, get_random_element. All operations should",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 96,
+    "company": "Facebook",
+    "topic": "DSA",
+    "source": "LeetCode",
+    "text": "Given a string s, find the length of the longest substring without repeating characters.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 97,
+    "company": "Apple",
+    "topic": "DSA",
+    "source": "CareerCup",
+    "text": "Write a function to check if a linked list has a cycle in it.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 98,
+    "company": "Microsoft",
+    "topic": "DSA",
+    "source": "GeeksforGeeks",
+    "text": "Given a binary tree, implement a function to check if it is balanced.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 99,
+    "company": "Stripe",
+    "topic": "DSA",
+    "source": "Unknown",
+    "text": "[HackerRank",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 100,
+    "company": "Unknown",
+    "topic": "Unknown",
+    "source": "Unknown",
+    "text": "Here are 10 actual debugging/bug-fix interview questions that candidates have encountered at various companies:",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 101,
+    "company": "Google",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "You have a function that is supposed to return the sum of an array of integers, but it returns incorrect results for certain inputs. How would you debug this function?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 102,
+    "company": "Amazon",
+    "topic": "Debugging",
+    "source": "LeetCode",
+    "text": "You are given a piece of code that sorts an array, but it fails on large datasets. Describe your approach to identify and fix the performance issue.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 103,
+    "company": "Facebook",
+    "topic": "Debugging",
+    "source": "CareerCup",
+    "text": "You notice that a specific feature in our application is crashing intermittently. What steps would you take to troubleshoot and identify the root cause?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 104,
+    "company": "Apple",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "A user reports that the app crashes when trying to load images. How would you go about debugging this issue?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 105,
+    "company": "Microsoft",
+    "topic": "Debugging",
+    "source": "HackerRank",
+    "text": "You are tasked with debugging a",
+    "fetched_at": "2025-06-29"
+  }
+]

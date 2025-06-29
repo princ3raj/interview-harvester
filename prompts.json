@@ -1,0 +1,74 @@
+{
+    "all_rounds": {
+      "system": "You are an expert at retrieving real interview questions for back-end roles.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "template": "Please retrieve up to {max_new} actual backend interview questions that candidates have reported, covering all stages of the process (DSA, Debugging, System Design, API Integration, Behavioral). For each question, use the format [Company][Stage][Source] Question text. Company ∈ {{ {companies} }}, Stage ∈ {{ {topics} }}. Source is where it was reported (e.g. Glassdoor, LeetCode Discuss). One question per line."
+    },
+  
+    "dsa_only": {
+      "system": "You are an expert at retrieving real DSA interview questions.",
+      "model": "gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.6,
+      "template": "Please retrieve up to {max_new} actual DSA (coding) interview questions that have been asked at: {companies}. For each, use [Company][DSA][Source] Question text. Source is the platform where it was reported. One per line."
+    },
+  
+    "design_and_api": {
+      "system": "You are an expert at retrieving real System Design and API Integration questions.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "template": "Fetch up to {max_new} real interview questions on System Design and API Integration asked at: {companies}. Use [Company][Stage][Source] Question text, with Stage ∈ {{System Design, API Integration}}. Source is the candidate-reported source. One per line."
+    },
+  
+    "debugging_bugbash": {
+      "system": "You specialize in retrieving real-world debugging and bug-fixing interview tasks.",
+      "model": "gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.6,
+      "template": "Please retrieve up to {max_new} actual debugging/bug-fix interview questions that candidates encountered at: {companies}. Tag each as [Company][Debugging][Source] Question text. Source is where it was reported (e.g., Glassdoor). One per line."
+    },
+  
+    "behavioral_only": {
+      "system": "You are an authority on behavioral and leadership interview questions.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "template": "Fetch up to {max_new} real behavioral and leadership questions asked at: {companies}. Format each as [Company][Behavioral][Source] Question text. Source is the site/forum where reported. One per line."
+    },
+  
+    "performance_and_scaling": {
+      "system": "You retrieve real questions focused on performance, scaling, and optimization.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 250,
+      "temperature": 0.7,
+      "template": "Please retrieve up to {max_new} real interview questions about performance tuning and scaling of backend services at: {companies}. Use [Company][Performance][Source] Question text. Source indicates where the question was reported. One per line."
+    },
+  
+    "security_and_auth": {
+      "system": "You are an expert on retrieving real security and authentication questions.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 250,
+      "temperature": 0.6,
+      "template": "Fetch up to {max_new} real backend security/authentication questions candidates faced at: {companies}. Format as [Company][Security][Source] Question text. Source is where it was reported. One per line."
+    },
+  
+    "company_specific_google": {
+      "system": "You fetch real interview prompts specifically from Google backend interviews.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "template": "Please list up to {max_new} actual backend interview questions reported by candidates at Google. Use [Google][Stage][Source] Question text. Stage ∈ {{DSA, Debugging, System Design, API Integration, Behavioral}}; Source is where it was reported. One per line."
+    },
+  
+    "company_specific_amazon": {
+      "system": "You fetch real interview prompts specifically from Amazon backend interviews.",
+      "model": "gpt-3.5-turbo-16k",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "template": "Please list up to {max_new} actual backend interview questions reported by candidates at Amazon. Use [Amazon][Stage][Source] Question text. Stage ∈ {{DSA, Debugging, System Design, API Integration, Behavioral}}; Source is where it was reported. One per line."
+    }
+  }
+  
