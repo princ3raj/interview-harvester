@@ -835,5 +835,61 @@
     "source": "Glassdoor",
     "text": "How would you handle",
     "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 112,
+    "company": "Google",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "Describe a time when you found a bug in a system; how did you diagnose and fix it?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 113,
+    "company": "Amazon",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "How would you approach debugging a performance issue in a distributed system?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 114,
+    "company": "Facebook",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "Can you walk us through your debugging process when you encounter a null pointer exception in your code?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 115,
+    "company": "Apple",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "What steps would you take to troubleshoot a memory leak in an iOS application?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 116,
+    "company": "Microsoft",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "Explain how you would debug a scenario where an application crashes without any error messages.",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 117,
+    "company": "Netflix",
+    "topic": "Debugging",
+    "source": "Glassdoor",
+    "text": "If a feature you implemented is not working as expected in production, how would you investigate the issue?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 118,
+    "company": "Stripe",
+    "topic": "Debugging",
+    "source": "Unknown",
+    "text": "[Glassdoor",
+    "fetched_at": "2025-06-29"
   }
 ]
