@@ -1,6 +1,6 @@
 # Interview Harvester
 
-A command-line tool to fetch, backfill, and maintain a bank of real-world backend interview questions.
+A command-line tool to fetch and maintain a bank of real-world backend interview questions.
 
 ## Features
 
