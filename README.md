@@ -93,6 +93,31 @@ A command-line tool to fetch and maintain a bank of real-world backend interview
 }
 ```
 
+## Sample `questions.json`
+
+After running the fetcher, your `questions.json` will look like the following:
+
+```json
+[
+  {
+    "id": 1,
+    "company": "Google",
+    "topic": "Distributed Systems",
+    "source": "Glassdoor",
+    "text": "How would you design a distributed caching system to reduce database load and improve response time?",
+    "fetched_at": "2025-06-29"
+  },
+  {
+    "id": 2,
+    "company": "Amazon",
+    "topic": "Distributed Systems",
+    "source": "LeetCode Discuss",
+    "text": "Explain the CAP theorem and how it applies to the design of distributed systems.",
+    "fetched_at": "2025-06-29"
+  }
+  // ...more entries...
+]
+
 ## Contributing
 
 Feel free to open issues or submit PRs. Common enhancements:
