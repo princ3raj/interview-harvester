@@ -132,6 +132,8 @@ def main():
         companies=', '.join(COMPANIES),
         topics=', '.join(TOPICS)
     )
+
+    prompt += "\n\nPlease ensure each question is returned as a complete sentence without truncation."
     
     try:
         model=template.get("model", "gpt-3.5-turbo-16k")
