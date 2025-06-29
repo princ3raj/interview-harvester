@@ -117,6 +117,7 @@ After running the fetcher, your `questions.json` will look like the following:
   }
   // ...more entries...
 ]
+```
 
 ## Contributing
 
